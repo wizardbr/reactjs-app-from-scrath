@@ -1,0 +1,18 @@
+{
+  "name": "config-app-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Flávio Florentino <florentino.flavioweb@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
