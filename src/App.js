@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import './App.css';
+import "./App.css";
 
 function App() {
-  return <h1>React Root Component</h1>;
+  return (
+    <div>
+      <h1>React Root Component</h1>
+    </div>
+  );
 }
 
 export default App;
