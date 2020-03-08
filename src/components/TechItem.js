@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 function TechItem({ tech, onDelete }) {
   return (
@@ -10,5 +11,10 @@ function TechItem({ tech, onDelete }) {
     </li>
   );
 }
+
+TechItem.propTypes = {
+  tech: PropTypes.string.isRequired,
+  onDelete: PropTypes.func.isRequired,
+};
 
 export default TechItem;
